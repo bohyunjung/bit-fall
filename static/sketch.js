@@ -26,7 +26,7 @@ function draw() {
             ps.addParticle(dot[0], dot[1]);
         }
     } else if (!pending) {
-        httpGet('/fetch', function(response) {
+        httpGet('./fetch', function(response) {
             setTimeout(function(){
                 pixelData = pixelize(pg, response, 130);
                 pending = false;
