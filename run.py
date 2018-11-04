@@ -1,5 +1,6 @@
 import argparse
 import random
+import datetime
 from flask import Flask, request, render_template
 app = Flask(__name__)
 
@@ -10,14 +11,14 @@ def post():
     global messages
     message = request.form.get('message')
     if message:
-        messages.append(message)#upper
+        messages.append(message)
     return render_template('post.html')
 
 @app.route('/fetch')
 def fetch():
     if messages:
         return messages.pop()
-    return random.choice(["ART","TECHNOLOGY","SOCIETY","UNDERSALON","AUSTRIA","LINZ","WELCOME","안녕하세요","캥거루"])
+    return random.choice(["안녕하세요","HELLO","BONJOUR","HOLA","HALLO","CIAO","UNDERSALON","언더싸롱","FF4F01",str(datetime.date.today())])
 
 @app.route('/')
 def index():
