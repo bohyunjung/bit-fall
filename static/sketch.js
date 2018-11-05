@@ -10,7 +10,10 @@ function setup() {
     H_OFFSET = 60;
     N_NOZZLES = 130;
 
+    pixelDensity(1);
     createCanvas(W, H);
+    original = createGraphics(W, H);
+
     blendMode(ADD);
   
     rowList = [];
@@ -47,7 +50,6 @@ function draw() {
 }
 
 function getData(text){
-  original = createGraphics(W, H);
   original.background(0);
   original.smooth();
   
