@@ -18,7 +18,7 @@ def post():
 def fetch():
     if messages:
         return messages.pop()
-    return random.choice(["안녕하세요","HELLO","BONJOUR","HOLA","HALLO","CIAO","UNDERSALON","언더싸롱","FF4F01",str(datetime.date.today())])
+    return random.choice(["안녕하세요","HELLO","BONJOUR","HOLA","HALLO","CIAO","ULPC","ff4f01",str(datetime.date.today())])
 
 @app.route('/')
 def index():
