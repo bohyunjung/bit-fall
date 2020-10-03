@@ -8,7 +8,7 @@ ff4f01-experiments (bit.fall by Julius Popp, reverse-engineered)
 Please use python3.
 
 ```sh
-git clone https://github.com/ff4f01/R001.git
+git clone https://github.com/bohyun-jung/bit-fall.git
 cd R001
 pip install -r requirements.txt
 ./run.sh
