@@ -1,5 +1,5 @@
-# R001
-ff4f01-experiments R001 (bit.fall by Julius Popp, reverse-engineered)
+# bit.fall
+ff4f01-experiments (bit.fall by Julius Popp, reverse-engineered)
 
 ![](https://user-images.githubusercontent.com/8598722/90392427-cec09f80-e0c9-11ea-8571-a8054bcddbf7.png)
 
