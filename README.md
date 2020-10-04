@@ -9,6 +9,7 @@ Using docker
 
 ```sh
 git clone https://github.com/bohyun-jung/bit-fall.git
+cd bit-fall
 ./build-and-run.sh
 ```
 
